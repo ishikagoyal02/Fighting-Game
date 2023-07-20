@@ -1,0 +1,81 @@
+html {
+    height: 100%;
+    width: 100%;
+  }
+  
+  body{
+    align-items:center;
+    margin-top: 45px;
+    border: 2px solid black;
+  }
+
+  .container{
+    align-items:center;
+  }
+
+  .player2
+  {
+     
+  margin-left: 200px;
+      
+  }
+  
+  text{
+    margin-left:30px;
+  }
+  
+  .img {
+    height:150px;
+    width:150px;
+  }
+
+  .players{
+    /* flexbox:inline; */
+    display:flex;
+    justify-content: center;
+    
+  }
+  
+  #text{
+    font-size: 40px;
+  }
+
+  .siml
+  {
+    font-size: 30px;
+    color: aliceblue;
+    background: rgb(91, 163, 91);
+    padding: 10px 20px;
+    border-radius:30px;
+    margin-left: 210px;
+  }
+
+  #attack,#heal
+  {
+    display:flex;
+    margin: 40px 60px;
+  }
+
+  #Abutton
+  {
+    font-size: 26px;
+    border-radius: 10px;
+    padding: 10px 20px;
+    background-color: yellow;
+  }
+
+  #text1, #text2{
+    font-size: 40px;
+    margin-right: 20px;
+  }
+
+  #Hbutton{
+    font-size: 26px;
+    border-radius: 10px;
+    padding: 10px 20px;
+    background-color: rgba(134, 187, 212, 0.815);
+  }
+
+  #feature{
+    display:flex;
+  }
